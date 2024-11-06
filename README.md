@@ -6,7 +6,12 @@ Se creo un CRUD para consumir la API de Fake Platzi, la creacion, eliminarcion y
 ## Screenshots
 
 ![App Screenshot](FakePlatzi/wwwroot/images/detalles.PNG)
-![App Screenshot](images/Filtrado.PNG)
+![App Screenshot](FakePlatzi/wwwroot/images/Filtrado.PNG)
+![App Screenshot](FakePlatzi/wwwroot/images/Alerta de producto creado.PNG)
+![App Screenshot](FakePlatzi/wwwroot/images/Filtrado.PNG)
+![App Screenshot](FakePlatzi/wwwroot/images/Filtrado.PNG)
+![App Screenshot](FakePlatzi/wwwroot/images/Filtrado.PNG)
+![App Screenshot](FakePlatzi/wwwroot/images/Filtrado.PNG)
 
 
 ## Tech Stack
