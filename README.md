@@ -7,12 +7,11 @@ Se creo un CRUD para consumir la API de Fake Platzi, la creacion, eliminarcion y
 
 ![App Screenshot](FakePlatzi/wwwroot/images/detalles.PNG)
 ![App Screenshot](FakePlatzi/wwwroot/images/Filtrado.PNG)
-![App Screenshot](FakePlatzi/wwwroot/images/Alerta de producto creado.PNG)
-![App Screenshot](FakePlatzi/wwwroot/images/Filtrado.PNG)
-![App Screenshot](FakePlatzi/wwwroot/images/Filtrado.PNG)
-![App Screenshot](FakePlatzi/wwwroot/images/Filtrado.PNG)
-![App Screenshot](FakePlatzi/wwwroot/images/Filtrado.PNG)
-
+![App Screenshot](FakePlatzi/wwwroot/images/AlertaProductoCreado.PNG)
+![App Screenshot](FakePlatzi/wwwroot/images/VistaCrear.PNG)
+![App Screenshot](FakePlatzi/wwwroot/images/VistaEditar.PNG)
+![App Screenshot](FakePlatzi/wwwroot/images/VistaEliminar.PNG)
+![App Screenshot](FakePlatzi/wwwroot/images/VistaListar.PNG)
 
 ## Tech Stack
 
