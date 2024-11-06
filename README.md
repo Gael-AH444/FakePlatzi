@@ -5,9 +5,8 @@ Se creo un CRUD para consumir la API de Fake Platzi, la creacion, eliminarcion y
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](~/images/detalles.PNG)
+![App Screenshot](~/images/filtrado.PNG)
 
 
 ## Tech Stack
