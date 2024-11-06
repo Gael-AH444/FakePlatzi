@@ -1,0 +1,47 @@
+﻿@model ProductModel
+@{
+    ViewData["Title"] = "Crear nuevo producto";
+}
+
+<h2>Crear Nuevo Producto</h2>
+
+<form asp-action="Create" method="post">
+    <div class="form-group mb-3">
+        <label for="Title">Título</label>
+        <input asp-for="Title" class="form-control" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-3">
+        <label for="Price">Precio</label>
+        <input asp-for="Price" class="form-control" />
+        <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-3">
+        <label for="Description">Descripción</label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-3">
+        <label for="CategoryId">Categoría ID</label>
+        <input asp-for="CategoryId" class="form-control" />
+        <span asp-validation-for="CategoryId" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label for="ImageUrl">URL de la Imagen</label>
+        <input asp-for="ImageUrl" class="form-control" placeholder="https://example.com/image.png" />
+        <span asp-validation-for="ImageUrl" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Crear Producto</button>
+    <a asp-action="Index" asp-controller="Product" class="btn btn-secondary">Cancelar</a>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
